@@ -9,6 +9,7 @@
         methods: {
             logout() {
                 window.sessionStorage.clear()
+                //路由跳转
                 this.$router.push('/login')
             }
         }
